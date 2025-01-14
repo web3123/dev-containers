@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/devcontainers/base:0-alpine-3.20
 ENV LANG C.UTF-8
 ENV TERM=xterm
 
-WORKDIR /app
+WORKDIR /root
 
 # alpine packages
 RUN apk update && \
