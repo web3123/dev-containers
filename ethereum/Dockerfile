@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/devcontainers/base:0-alpine-3.20
 
+LABEL org.opencontainers.image.description "An alpine based images with nodejs/web3 support"
+
 # environment variables
 ENV LANG C.UTF-8
 ENV TERM=xterm
