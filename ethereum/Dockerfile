@@ -49,6 +49,8 @@ RUN npm install --global babel-cli
 RUN npm install --global nodemon
 RUN npm install --global web3
 
+RUN chsh -s /bin/zsh
+
 EXPOSE 22
 
 CMD ["/usr/sbin/sshd", "-D"]
