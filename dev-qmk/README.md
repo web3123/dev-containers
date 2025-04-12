@@ -1,4 +1,4 @@
-c/c++ 用的开发镜像；
+QMK/vial keyboard firmware用的开发镜像；
 
 `podman build --tag ghcr.io/kimiazhu/dev-qmk:250412 -f Dockerfile .`
 
