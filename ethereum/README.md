@@ -16,7 +16,7 @@ podman pull ghcr.io/kimiazhu/dev-base:alpine-3.20-250116
 ```
 - 初次运行:
 ```
-podman run -d -v ~/Development:/root/Development -p8888:22 ghcr.io/kimiazhu/dev-base:alpine-3.20-250114
+podman run -d --user root --cap-add=NET_RAW -v ~/Development:/root/Development -p8888:22 ghcr.io/kimiazhu/dev-base:alpine-3.20-250114
 ```
 
 - 加入ssh公钥：
