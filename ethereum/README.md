@@ -21,7 +21,7 @@ podman run -d --user root --cap-add=NET_RAW -v ~/Development:/root/Development -
 
 - 加入ssh公钥：
 ```
-ssh-copy-id -i .ssh/id_rsa.pub -p8888 root@localhost
+ssh-copy-id -i ~/.ssh/id_rsa.pub -p8888 root@localhost
 ```
 
 - VS-code配置：
